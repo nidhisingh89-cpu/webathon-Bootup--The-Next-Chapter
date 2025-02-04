@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    background-image: url('BEACH.JPG');
+    background-size: cover;
+    width: 1370px;
+    height: 800px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav ul li button {
+    font-size: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+nav ul li button {
+    color: aqua;
+}
+
+nav ul li a {
+    color: aqua;
+}
+
+a {
+    text-decoration:underline;
+    color: aqua;
+    font-size: 40px;
+}
+
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: absolute;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-button {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    background: #f3C6;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.loginbtn{
+    font-size: 15px;
+    text-decoration: underline;
+    color: white;
+
+}
+
+h1{
+    color: palevioletred ;
+    margin-right: 320px;
+    margin-top: 80px;
+    font-size: 60px;
+}
+
+p{
+    width: 400PX;
+    margin-top:60px;
+    margin-right:80px;
+    margin-left: 450PX;
+    color:azure;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-right: 450px;
+    background-color:rgb(224, 140, 168) ;
+    color: white;
+
+}
+
+
+
+
+
+
+

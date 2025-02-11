@@ -1,0 +1,9 @@
+There are three type of loops in javascript
+
+for loop = The for loop repeats a block of code a specific number of times. 
+It contains initialization, condition, and increment/decrement in one line.
+
+while loop = The while loop executes as long as the condition is true. It can be thought of as a repeating if statement. 
+
+do while loop = The do-while loop is similar to while loop except it executes the code block at least once before checking the condition.
+

@@ -1,0 +1,11 @@
+var = variable can be re-declared and update. A globle scope variable
+var is the oldest keyword to declare variable in javascript.
+It can be declared without initialization.
+
+let = variable cannot be re-declared but can be updated. A block scope variable
+let keyword is an improved version of the var keyword.
+It can be declared without initialization
+
+const = variable cannot be re-declared or upadated. A block scope variable
+const keyword has all the properties that are the same as the let keyword.
+It cannot be decalared without initialiation.

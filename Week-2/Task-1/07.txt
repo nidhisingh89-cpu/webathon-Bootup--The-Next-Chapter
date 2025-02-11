@@ -1,0 +1,4 @@
+Callback function are functions that are called after the first function completes its task.
+
+We need callback function because many javascript actions are asynchronous, which means they don't really stop
+the program from running until they're completed
